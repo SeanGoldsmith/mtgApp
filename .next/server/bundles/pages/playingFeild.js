@@ -72,45 +72,20 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/battlefield.js":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "./pages/playingFeild.js":
+/***/ (function(module, exports) {
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "C:\\Users\\Jonkn\\Documents\\GitHub\\mtgApp\\pages\\battlefield.js";
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 2
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    }
-  }, "This is the about page"));
-});
 
 /***/ }),
 
 /***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/battlefield.js");
+module.exports = __webpack_require__("./pages/playingFeild.js");
 
-
-/***/ }),
-
-/***/ "react":
-/***/ (function(module, exports) {
-
-module.exports = require("react");
 
 /***/ })
 
 /******/ });
-//# sourceMappingURL=battlefield.js.map
+//# sourceMappingURL=playingFeild.js.map

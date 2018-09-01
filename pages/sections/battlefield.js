@@ -1,5 +1,5 @@
 export default () => (
   <div>
-    <p>This is the about page</p>
+    <h1>battlefield</h1>
   </div>
 )
