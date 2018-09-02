@@ -1,6 +1,6 @@
 const Hand = (props) => (
   <div>
-    <h1>This Is my hand</h1>
+    {props.children}
   </div>
 )
 
