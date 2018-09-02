@@ -1,5 +1,7 @@
-export default () => (
+const BattlefFeild = (props) => (
   <div>
-    <h1>battlefield</h1>
+    {props.children}
   </div>
 )
+
+export default BattlefFeild
