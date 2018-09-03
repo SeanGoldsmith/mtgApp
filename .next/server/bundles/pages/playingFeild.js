@@ -83,7 +83,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sections_hand_js__ = __webpack_require__("./pages/sections/hand.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__sections_card_js__ = __webpack_require__("./pages/sections/card.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sections_lifeCounter_js__ = __webpack_require__("./pages/sections/lifeCounter.js");
-var _jsxFileName = "C:\\Users\\mmana\\Documents\\GitHub\\mtgApp\\pages\\playingFeild.js";
+var _jsxFileName = "C:\\Users\\Jonkn\\Documents\\GitHub\\mtgApp\\pages\\playingFeild.js";
 
 
 
@@ -116,10 +116,28 @@ var _jsxFileName = "C:\\Users\\mmana\\Documents\\GitHub\\mtgApp\\pages\\playingF
       fileName: _jsxFileName,
       lineNumber: 16
     }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__sections_card_js__["a" /* default */], {
+    handPosition: 2,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__sections_card_js__["a" /* default */], {
+    handPosition: 3,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    }
+  }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__sections_card_js__["a" /* default */], {
+    handPosition: 4,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    }
   })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_4__sections_lifeCounter_js__["a" /* default */], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 26
     }
   })));
 });
@@ -132,7 +150,7 @@ var _jsxFileName = "C:\\Users\\mmana\\Documents\\GitHub\\mtgApp\\pages\\playingF
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "C:\\Users\\mmana\\Documents\\GitHub\\mtgApp\\pages\\sections\\battlefield.js";
+var _jsxFileName = "C:\\Users\\Jonkn\\Documents\\GitHub\\mtgApp\\pages\\sections\\battlefield.js";
 
 
 var BattlefFeild = function BattlefFeild(props) {
@@ -152,102 +170,108 @@ var BattlefFeild = function BattlefFeild(props) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "C:\\Users\\mmana\\Documents\\GitHub\\mtgApp\\pages\\sections\\card.js";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__ = __webpack_require__("styled-jsx/style");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
+var _jsxFileName = "C:\\Users\\Jonkn\\Documents\\GitHub\\mtgApp\\pages\\sections\\card.js";
 
-var n = Math.floor(Math.random() * Math.floor(200));
-var img = "https://www.fillmurray.com/g/200/" + Math.floor(Math.random() * Math.floor(200));
+
 
 var Card = function Card(props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
     id: props.handPosition,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    className: "jsx-2806888133" + " " + "cardTopLevel"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    className: "jsx-2806888133" + " " + "topLIneContainer"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 4
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "topLIneContainer",
+    },
+    className: "jsx-2806888133"
+  }, "Card Title"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, "Card Title"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    },
+    className: "jsx-2806888133"
+  }, "Mana Cost")), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
-    }
-  }, "Mana Cost")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "artworkContainer",
+    },
+    className: "jsx-2806888133" + " " + "cardType"
+  }, "Card Type"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    className: "jsx-2806888133"
+  }, "Description | Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu"), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    className: "artwork",
-    src: img,
+    },
+    className: "jsx-2806888133" + " " + "powerAndToughnessContainer"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    },
+    className: "jsx-2806888133" + " " + "powerHolder"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    className: "jsx-2806888133"
+  }, "P: "), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+    type: "number",
+    value: "42",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
-    }
-  }, "Card Type"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    }
-  }, "Description | Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec qu"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "powerAndToughnessContainer",
+    },
+    className: "jsx-2806888133"
+  })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "powerHolder",
+    },
+    className: "jsx-2806888133" + " " + "toughnessHolder"
+  }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    },
+    className: "jsx-2806888133"
+  }, "T: "), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("input", {
+    type: "number",
+    value: "42",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
-    }
-  }, "P: "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
-    type: "number",
-    value: "42",
+    },
+    className: "jsx-2806888133"
+  })), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "toughnessHolder",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    }
-  }, "T: "), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("input", {
-    type: "number",
-    value: "42",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    }
-  }))));
+      lineNumber: 18
+    },
+    className: "jsx-2806888133" + " " + "handposition"
+  }, props.handPosition)), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_0_styled_jsx_style___default.a, {
+    styleId: "2806888133",
+    css: [".cardTopLevel.jsx-2806888133{position:relative;border:1px solid black;max-width:15vw;max-height:20vw;background:#dedede;padding:1vw;}", ".topLIneContainer.jsx-2806888133{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}", ".cardType.jsx-2806888133{text-align:right;}", ".powerAndToughnessContainer.jsx-2806888133{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;}", ".powerAndToughnessContainer.jsx-2806888133>.jsx-2806888133:nth-child(N+1){display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}", "input.jsx-2806888133{max-width:3.5em;}", ".handposition.jsx-2806888133{position:absolute;top:0;left:0;color:red;}"]
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["a"] = (Card);
@@ -260,7 +284,7 @@ var Card = function Card(props) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "C:\\Users\\mmana\\Documents\\GitHub\\mtgApp\\pages\\sections\\hand.js";
+var _jsxFileName = "C:\\Users\\Jonkn\\Documents\\GitHub\\mtgApp\\pages\\sections\\hand.js";
 
 
 var Hand = function Hand(props) {
@@ -282,7 +306,7 @@ var Hand = function Hand(props) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "C:\\Users\\mmana\\Documents\\GitHub\\mtgApp\\pages\\sections\\lifeCounter.js";
+var _jsxFileName = "C:\\Users\\Jonkn\\Documents\\GitHub\\mtgApp\\pages\\sections\\lifeCounter.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -363,6 +387,13 @@ module.exports = __webpack_require__("./pages/playingFeild.js");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ })
 

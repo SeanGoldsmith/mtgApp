@@ -14,6 +14,9 @@ export default () => (
     <BattlefFeild>
       <Hand>
         <Card handPosition={1} />
+        <Card handPosition={2} />
+        <Card handPosition={3} />
+        <Card handPosition={4} />
       </Hand>
       {/* <ResourceBank />
       <Discard />
