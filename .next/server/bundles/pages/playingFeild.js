@@ -83,7 +83,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sections_hand_js__ = __webpack_require__("./pages/sections/hand.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__sections_card_js__ = __webpack_require__("./pages/sections/card.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__sections_lifeCounter_js__ = __webpack_require__("./pages/sections/lifeCounter.js");
-var _jsxFileName = "C:\\Users\\Jonkn\\Documents\\GitHub\\mtgApp\\pages\\playingFeild.js";
+var _jsxFileName = "C:\\Users\\mmana\\Documents\\GitHub\\mtgApp\\pages\\playingFeild.js";
 
 
 
@@ -132,7 +132,7 @@ var _jsxFileName = "C:\\Users\\Jonkn\\Documents\\GitHub\\mtgApp\\pages\\playingF
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "C:\\Users\\Jonkn\\Documents\\GitHub\\mtgApp\\pages\\sections\\battlefield.js";
+var _jsxFileName = "C:\\Users\\mmana\\Documents\\GitHub\\mtgApp\\pages\\sections\\battlefield.js";
 
 
 var BattlefFeild = function BattlefFeild(props) {
@@ -154,7 +154,7 @@ var BattlefFeild = function BattlefFeild(props) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "C:\\Users\\Jonkn\\Documents\\GitHub\\mtgApp\\pages\\sections\\card.js";
+var _jsxFileName = "C:\\Users\\mmana\\Documents\\GitHub\\mtgApp\\pages\\sections\\card.js";
 
 var n = Math.floor(Math.random() * Math.floor(200));
 var img = "https://www.fillmurray.com/g/200/" + Math.floor(Math.random() * Math.floor(200));
@@ -260,7 +260,7 @@ var Card = function Card(props) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "C:\\Users\\Jonkn\\Documents\\GitHub\\mtgApp\\pages\\sections\\hand.js";
+var _jsxFileName = "C:\\Users\\mmana\\Documents\\GitHub\\mtgApp\\pages\\sections\\hand.js";
 
 
 var Hand = function Hand(props) {
@@ -282,7 +282,7 @@ var Hand = function Hand(props) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-var _jsxFileName = "C:\\Users\\Jonkn\\Documents\\GitHub\\mtgApp\\pages\\sections\\lifeCounter.js";
+var _jsxFileName = "C:\\Users\\mmana\\Documents\\GitHub\\mtgApp\\pages\\sections\\lifeCounter.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
