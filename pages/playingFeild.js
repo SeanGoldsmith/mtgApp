@@ -13,10 +13,10 @@ export default () => (
   <div>
     <BattlefFeild>
       <Hand>
-        <Card handPosition={1} />
-        <Card handPosition={2} />
-        <Card handPosition={3} />
-        <Card handPosition={4} />
+        <Card position={"hand1"} />
+        <Card position={"hand2"} />
+        <Card position={"hand3"} />
+        <Card position={"hand4"} />
       </Hand>
       {/* <ResourceBank />
       <Discard />
@@ -25,5 +25,10 @@ export default () => (
       <CardsInPlay /> */}
       <LifeCounter />
     </BattlefFeild>
+    <style jsx global>{`
+      * {
+        margin:0;
+      }
+    `}</style>
   </div>
 )
